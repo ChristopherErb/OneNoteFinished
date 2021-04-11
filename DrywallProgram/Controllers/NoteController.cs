@@ -16,5 +16,26 @@ namespace DrywallProgram.Controllers
             var model = new NoteListItem[0];
             return View(model);
         }
+
+
+        //Add Method Here
+        //GET
+
+        public ActionResult Create()
+        {
+
+            return View();
+             
+        }
+
+        [HttpPost]
+        public ActionResult Create(NoteCreate model)
+        {
+            if (ModelState.IsValid)
+            {
+
+            }
+            return View(model);
+        }
     }
 }
