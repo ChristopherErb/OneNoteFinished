@@ -62,13 +62,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DrywallProgram.Data\DrywallProgram.Data.csproj">
+    <ProjectReference Include="..\DrywallProgram.Data\OneNote.Data.csproj">
       <Project>{924d5d8a-2c8f-43da-ac73-cd1dfcb4776f}</Project>
-      <Name>DrywallProgram.Data</Name>
+      <Name>OneNote.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DrywallProgram.Models\DrywallProgram.Models.csproj">
+    <ProjectReference Include="..\DrywallProgram.Models\OneNote.Models.csproj">
       <Project>{ebd30d78-7991-4db8-8cb6-e21f7b2443d2}</Project>
-      <Name>DrywallProgram.Models</Name>
+      <Name>OneNote.Models</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

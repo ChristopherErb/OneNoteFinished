@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrywallProgram.WebMVC", "DrywallProgram\DrywallProgram.WebMVC.csproj", "{5B4143B2-2EFB-491C-A342-33D92AD1EADC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneNote.WebMVC", "DrywallProgram\OneNote.WebMVC.csproj", "{5B4143B2-2EFB-491C-A342-33D92AD1EADC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrywallProgram.Models", "DrywallProgram.Models\DrywallProgram.Models.csproj", "{EBD30D78-7991-4DB8-8CB6-E21F7B2443D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneNote.Models", "DrywallProgram.Models\OneNote.Models.csproj", "{EBD30D78-7991-4DB8-8CB6-E21F7B2443D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrywallProgram.Data", "DrywallProgram.Data\DrywallProgram.Data.csproj", "{924D5D8A-2C8F-43DA-AC73-CD1DFCB4776F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneNote.Data", "DrywallProgram.Data\OneNote.Data.csproj", "{924D5D8A-2C8F-43DA-AC73-CD1DFCB4776F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrywallProgram.Services", "DrywallProgram.Services\DrywallProgram.Services.csproj", "{86D26A93-ED8E-48D1-A055-F2D8C117F60D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneNote.Services", "DrywallProgram.Services\OneNote.Services.csproj", "{86D26A93-ED8E-48D1-A055-F2D8C117F60D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
