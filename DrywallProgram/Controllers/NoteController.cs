@@ -59,6 +59,14 @@ namespace DrywallProgram.Controllers
             return View(model);
         }
 
+        public ActionResultDetails(int id)
+        {
+            var svc = CreateNoteService();
+            var model = svc.GetNoteById(id);
+
+            return Vew(model);
+        }
+
         private NoteService CreateNoteService()
         {
             var userId = Guid.Parse(User.Identity.GetUserId());
@@ -66,4 +74,6 @@ namespace DrywallProgram.Controllers
             return service;
         }
     }
+
+
 }
